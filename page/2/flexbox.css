@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #817878;
+ }
+
+ .mainMenu{
+    display: flex;
+    justify-content: center;
+
+}
+ul li{
+    display: inline;
+    font-size: 25px;
+    padding: 10px;
+}
+ ul li a{
+    text-decoration:none;
+    background-color: #A259FF;
+    border-radius: 5px;
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+
+ svg {
+    color: whitesmoke;
+    width: 50px;
+}
+p a {
+    color: yellow;
+    font-size: 27px;
+}
+p a {text-decoration: none;}
+
+.container {
+    border-radius: 43px;
+    padding: 19px;
+    background: #7272728f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+    margin: 180px;
+}
+
+.ibadat {
+    display: flex;
+    gap: 45px;
+    text-align: center;
+}
+
+.flexbox {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+}
+.iman {
+    border: 3px solid gainsboro;
+    padding: 10px;
+    border-radius: 17px;
+}
+.salat {
+    border: 3px solid gainsboro;
+    padding: 10px;
+    border-radius: 17px;
+}
+
+.zakat {
+    border: 3px solid gainsboro;
+    padding: 10px;
+    border-radius: 17px;
+}
+
+.siyam {
+    border: 3px solid gainsboro;
+    padding: 10px;
+    border-radius: 17px;
+}
+
+.hazz {
+    border: 3px solid gainsboro;
+    padding: 10px;
+    border-radius: 17px;
+}
+
+.dua {
+    border: 3px solid gainsboro;
+    padding: 10px;
+    border-radius: 17px;
+}
+
+.zikir {
+    border: 3px solid gainsboro;
+    padding: 10px;
+    border-radius: 17px;
+}
+
+.jharfuk {
+    border: 3px solid gainsboro;
+    padding: 2px;
+    border-radius: 17px;
+}
+
+.tabij {
+    border: 3px solid gainsboro;
+    padding: 12px;
+    border-radius: 17px;
+}
+.jharfuk a {
+    font-size: 16px;
+}

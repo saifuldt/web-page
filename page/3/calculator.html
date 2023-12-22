@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="mainMenu">
+        <ul>
+            <li><a id="home" href="/index.html">Home</a></li>
+            <li><a id="page1" href="/page/1/index.html" target="_self">Bonus Calculator</a></li>
+            <li><a id="page2" href="/page/2/flexbox.html">Books</a></li>
+            <li><a id="page3" href="/page/3/calculator.html">Calculator</a></li>
+            <li><a id="page4" href="/page/4/login.html">Login</a></li>
+        </ul>
+    </div>
+   <div class="new">
+    <div class="calculator">
+        <h1>calculator</h1>
+        <input type="text" id="display" readonly>
+       <div class="buttons">
+        <button onclick="appendToDisplay('1')" >1</button>
+        <button onclick="appendToDisplay('2')" >2</button>
+        <button onclick="appendToDisplay('3')">3</button>
+        <button onclick="appendToDisplay('/')">/</button>
+        <button onclick="appendToDisplay('4')">4</button>
+        <button onclick="appendToDisplay('5')">5</button>
+        <button onclick="appendToDisplay('6')">6</button>
+        <button onclick="appendToDisplay('*')">*</button>
+        <button onclick="appendToDisplay('7')">7</button>
+        <button onclick="appendToDisplay('8')">8</button>
+        <button onclick="appendToDisplay('9')">9</button>
+        <button onclick="appendToDisplay('+')">+</button>
+        <button onclick="clearDisplay()">C</button>
+        <button onclick="appendToDisplay('0')">0</button>
+        <button onclick="calculate()" >=</button>
+        <button onclick="calculate(=$/100)">%</button>
+       </div>
+    </div>
+   </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
